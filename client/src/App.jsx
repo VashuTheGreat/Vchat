@@ -6,7 +6,7 @@ import bg from './assets/bg-img.jpg';
 import send from './assets/send.gif';
 import { v4 as uuidv4 } from "uuid";
 
-const socket = io('http://localhost:5000');
+const socket = io('https://vchat-9fmj.onrender.com/');
 
 function App() {
   const [message, setMessage] = useState('');
